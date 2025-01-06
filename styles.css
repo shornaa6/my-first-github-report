@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eeb3b3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    background-color: #e298cb;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+.profile-picture {
+    margin-bottom: 20px;
+}
+
+.profile-picture img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #eee;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 12px;
+    color: #0a0909;
+    text-align: left;
+    margin: 5px 0;
+}
+
+input[type="email"],
+input[type="password"] {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.login-btn,
+.register-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    font-weight: bold;
+}
+
+.login-btn {
+    background-color: #ff5722;
+}
+
+.register-btn {
+    background-color: #3b5998;
+}
+
+.forgot-password {
+    font-size: 12px;
+    color: #100f0f;
+    text-decoration: none;w
+    margin-top: 10px;
+    display: block;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+.remember {
+    font-size: 12px;
+    text-align: left;
+    margin-top: 10px;
+}
